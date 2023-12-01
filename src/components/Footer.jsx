@@ -5,20 +5,20 @@ const Footer = () => {
   return (
     <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-x-16 gap-y-8 text-gray-300'>
       <div>
-        <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1>
+        <h1 className='w-full text-3xl font-bold text-[#00df9a] cursor-pointer'>REACT.</h1>
         <p className='py-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora dolores temporibus perferendis cumque. Excepturi consequuntur deserunt omnis! Ad odio nihil hic, dolor quo fugit nobis illum, modi excepturi, ratione et!</p>
         <div  className='flex gap-8 my-4'>
-          <FaFacebook size={30} />
-          <FaInstagram size={30} />
-          <FaTwitterSquare size={30} /> 
-          <FaGithubSquare size={30} />
-          <FaDribbbleSquare size={30} />
+          <FaFacebook size={30} className='cursor-pointer'/>
+          <FaInstagram size={30} className='cursor-pointer'/>
+          <FaTwitterSquare size={30} className='cursor-pointer' /> 
+          <FaGithubSquare size={30} className='cursor-pointer'/>
+          <FaDribbbleSquare size={30} className='cursor-pointer' />
         </div>
       </div>
       <div className='grid grid-cols-2 col-span-2 sm:grid-cols-4 gap-y-8'>
         <div>
           <h6 className='font-medium text-gray-400'>Solutions</h6>
-          <ul className='flex flex-col gap-2 text-sm py-2'>
+          <ul className='flex flex-col gap-2 text-sm py-2 [&>*]:cursor-pointer'>
             <li>Analytics</li>
             <li>Marketing</li>
             <li>Commerce</li>
@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
         <div>
           <h6 className='font-medium text-gray-400'>Support</h6>
-          <ul className='flex flex-col gap-2 text-sm py-2'>
+          <ul className='flex flex-col gap-2 text-sm py-2 [&>*]:cursor-pointer'>
             <li>Pricing</li>
             <li>Documentation</li>
             <li>Guides</li>
@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
         <div>
           <h6 className='font-medium text-gray-400'>Company</h6>
-          <ul className='flex flex-col gap-2 text-sm py-2'>
+          <ul className='flex flex-col gap-2 text-sm py-2 [&>*]:cursor-pointer'>
             <li>About</li>
             <li>Blog</li>
             <li>Jobs</li>
@@ -46,7 +46,7 @@ const Footer = () => {
         </div>
         <div>
           <h6 className='font-medium text-gray-400'>Legal</h6>
-          <ul className='flex flex-col gap-2 text-sm py-2'>
+          <ul className='flex flex-col gap-2 text-sm py-2 [&>*]:cursor-pointer'>
             <li>Claim</li>
             <li>Policy</li>
             <li>Terms</li>
